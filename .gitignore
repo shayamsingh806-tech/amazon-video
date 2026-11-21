@@ -1,0 +1,11 @@
+# secrets: never commit (OpenRouter key lives here)
+.env
+.env.*
+
+# local caches and previews made by HyperFrames and the media tools
+**/.hyperframes/
+**/.thumbnails/
+**/.waveform-cache/
+**/.media/
+node_modules/
+.DS_Store
