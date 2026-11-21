@@ -1,0 +1,92 @@
+{
+ "vo01": {
+  "dur": 3.14,
+  "lufs": -16.0,
+  "true_peak": -1.3,
+  "gain": 0.4
+ },
+ "vo02": {
+  "dur": 1.76,
+  "lufs": -16.0,
+  "true_peak": -2.5,
+  "gain": -2.8
+ },
+ "vo03": {
+  "dur": 1.86,
+  "lufs": -16.0,
+  "true_peak": -0.8,
+  "gain": -1.1
+ },
+ "vo04": {
+  "dur": 2.01,
+  "lufs": -16.0,
+  "true_peak": -1.6,
+  "gain": -1.6
+ },
+ "vo05": {
+  "dur": 1.63,
+  "lufs": -16.0,
+  "true_peak": -2.2,
+  "gain": 0.4
+ },
+ "vo06": {
+  "dur": 1.67,
+  "lufs": -16.0,
+  "true_peak": -3.3,
+  "gain": -2.0
+ },
+ "vo07": {
+  "dur": 1.78,
+  "lufs": -16.0,
+  "true_peak": -0.7,
+  "gain": -1.1
+ },
+ "vo08": {
+  "dur": 1.52,
+  "lufs": -16.0,
+  "true_peak": -0.2,
+  "gain": -0.6
+ },
+ "vo09": {
+  "dur": 0.85,
+  "lufs": -16.0,
+  "true_peak": -1.9,
+  "gain": -0.8
+ },
+ "vo10": {
+  "dur": 2.52,
+  "lufs": -16.0,
+  "true_peak": 0.2,
+  "gain": 0.8
+ },
+ "vo11": {
+  "dur": 1.73,
+  "lufs": -16.0,
+  "true_peak": -0.4,
+  "gain": -1.6
+ },
+ "vo12": {
+  "dur": 2.225,
+  "lufs": -16.0,
+  "true_peak": -1.8,
+  "gain": -1.9
+ },
+ "vo13a": {
+  "dur": 1.93,
+  "lufs": -16.0,
+  "true_peak": -0.7,
+  "gain": -0.3
+ },
+ "vo13b": {
+  "dur": 1.41,
+  "lufs": -16.0,
+  "true_peak": -2.5,
+  "gain": -0.9
+ },
+ "vo14": {
+  "dur": 2.46,
+  "lufs": -16.0,
+  "true_peak": -1.1,
+  "gain": -1.6
+ }
+}
