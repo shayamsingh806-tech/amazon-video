@@ -1,0 +1,148 @@
+<!doctype html>
+<html
+  lang="hi"
+  data-resolution="portrait"
+  data-composition-variables='[
+    {"id":"color-ink","type":"color","label":"Text","default":"#1D1B1A"},
+    {"id":"color-accent","type":"color","label":"Accent","default":"#FF2E88"},
+    {"id":"font-display","type":"string","label":"Display font","default":"Poppins"}
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --color-ink: #1d1b1a;
+        --color-accent: #ff2e88;
+        --font-display: "Poppins";
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #9ed8f0;
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        font-family: var(--font-display), sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-out1"
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="39.5"
+      data-width="1080"
+      data-height="1920"
+    >
+      <div data-hf-id="hf-oqni"
+        id="miss"
+        data-composition-id="miss"
+        data-composition-src="compositions/miss.html"
+        data-start="0"
+        data-duration="9.6"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+      <div data-hf-id="hf-ynmq"
+        id="fix"
+        data-composition-id="fix"
+        data-composition-src="compositions/fix.html"
+        data-start="9.6"
+        data-duration="10.2"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+      <div data-hf-id="hf-9da6"
+        id="ring"
+        data-composition-id="ring"
+        data-composition-src="compositions/ring.html"
+        data-start="19.8"
+        data-duration="9"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+      <div data-hf-id="hf-nnn1"
+        id="honest"
+        data-composition-id="honest"
+        data-composition-src="compositions/honest.html"
+        data-start="28.8"
+        data-duration="7.1"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+      <div data-hf-id="hf-4r1r"
+        id="end"
+        data-composition-id="end"
+        data-composition-src="compositions/end.html"
+        data-start="35.9"
+        data-duration="3.6"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1920"
+      ></div>
+      <!-- sound effects: each starts so its peak lands one frame after the picture -->
+      <audio data-hf-id="hf-e9if" id="sfx-note1" class="clip" data-start="0" data-duration="1.2" data-track-index="10" data-volume="0.5" src="assets/sfx/notification.mp3"></audio>
+      <audio data-hf-id="hf-7r8x" id="sfx-rewind" class="clip" data-start="2.58" data-duration="0.33" data-track-index="11" data-volume="0.6" src="assets/sfx/swoosh.mp3"></audio>
+      <audio data-hf-id="hf-htyv" id="sfx-oldbell1" class="clip" data-start="3.545" data-media-start="0.3" data-duration="0.85" data-fade-out="0.25" data-track-index="10" data-volume="0.55" src="assets/sfx/old-bell.mp3"></audio>
+      <audio data-hf-id="hf-2sbl" id="sfx-oldbell2" class="clip" data-start="8.495" data-media-start="0.3" data-duration="0.55" data-fade-out="0.2" data-track-index="10" data-volume="0.4" src="assets/sfx/old-bell.mp3"></audio>
+      <audio data-hf-id="hf-3diz" id="sfx-note2" class="clip" data-start="8.78" data-duration="1.1" data-track-index="11" data-volume="0.7" src="assets/sfx/notification.mp3"></audio>
+      <audio data-hf-id="hf-hvxx" id="sfx-whoosh1" class="clip" data-start="8.9" data-duration="1.3" data-fade-out="0.4" data-track-index="12" data-volume="0.55" src="assets/sfx/whoosh-deep.mp3"></audio>
+      <audio data-hf-id="hf-a8dt" id="sfx-pop1" class="clip" data-start="9.76" data-duration="0.5" data-track-index="10" data-volume="0.45" src="assets/sfx/pop.mp3"></audio>
+      <audio data-hf-id="hf-pdti" id="sfx-stick" class="clip" data-start="12.43" data-duration="0.45" data-track-index="10" data-volume="0.45" src="assets/sfx/click.mp3"></audio>
+      <audio data-hf-id="hf-iklg" id="sfx-pan" class="clip" data-start="14.83" data-duration="0.33" data-track-index="11" data-volume="0.45" src="assets/sfx/swoosh.mp3"></audio>
+      <audio data-hf-id="hf-ccg5" id="sfx-plug" class="clip" data-start="15.51" data-duration="0.6" data-track-index="10" data-volume="0.55" src="assets/sfx/plug.mp3"></audio>
+      <audio data-hf-id="hf-g2gr" id="sfx-pop2" class="clip" data-start="18.51" data-duration="0.5" data-track-index="11" data-volume="0.4" src="assets/sfx/pop.mp3"></audio>
+      <audio data-hf-id="hf-isbp" id="sfx-whoosh2" class="clip" data-start="19.1" data-duration="1.2" data-fade-out="0.4" data-track-index="12" data-volume="0.55" src="assets/sfx/whoosh-deep.mp3"></audio>
+      <audio data-hf-id="hf-dw41" id="sfx-press" class="clip" data-start="20.58" data-duration="0.45" data-track-index="10" data-volume="0.55" src="assets/sfx/click.mp3"></audio>
+      <audio data-hf-id="hf-6hec" id="sfx-ding" class="clip" data-start="22.46" data-duration="2.6" data-track-index="11" data-volume="1" src="assets/sfx/doorbell.mp3"></audio>
+      <audio data-hf-id="hf-0he9" id="sfx-carry" class="clip" data-start="28.64" data-duration="0.33" data-track-index="10" data-volume="0.6" src="assets/sfx/swoosh.mp3"></audio>
+      <audio data-hf-id="hf-f00p" id="sfx-ding-soft" class="clip" data-start="33.15" data-duration="1.0" data-track-index="11" data-volume="0.22" src="assets/sfx/doorbell.mp3"></audio>
+      <audio data-hf-id="hf-bkn5" id="sfx-ding-loud" class="clip" data-start="35.1" data-duration="1.2" data-track-index="11" data-volume="1" src="assets/sfx/doorbell.mp3"></audio>
+      <audio data-hf-id="hf-f8dh" id="sfx-whoosh3" class="clip" data-start="35.25" data-duration="1.1" data-fade-out="0.4" data-track-index="12" data-volume="0.45" src="assets/sfx/whoosh-deep.mp3"></audio>
+      <audio data-hf-id="hf-0i7m" id="sfx-pop3" class="clip" data-start="36.01" data-duration="0.5" data-track-index="10" data-volume="0.45" src="assets/sfx/pop.mp3"></audio>
+      <!-- voiceover: Hindi, Gemini TTS via OpenRouter (voice Sulafat); clips trimmed to speech, -16 LUFS each -->
+      <audio id="vo01" class="clip" data-start="0.15" data-duration="3.14" data-track-index="20" data-volume="0.85" src="assets/voice/vo01.wav"></audio>
+      <audio id="vo02" class="clip" data-start="4.2" data-duration="1.76" data-track-index="21" data-volume="0.85" src="assets/voice/vo02.wav"></audio>
+      <audio id="vo03" class="clip" data-start="6.15" data-duration="1.86" data-track-index="20" data-volume="0.85" src="assets/voice/vo03.wav"></audio>
+      <audio id="vo04" class="clip" data-start="9.85" data-duration="2.01" data-track-index="21" data-volume="0.85" src="assets/voice/vo04.wav"></audio>
+      <audio id="vo05" class="clip" data-start="12.2" data-duration="1.63" data-track-index="20" data-volume="0.85" src="assets/voice/vo05.wav"></audio>
+      <audio id="vo06" class="clip" data-start="14.85" data-duration="1.67" data-track-index="21" data-volume="0.85" src="assets/voice/vo06.wav"></audio>
+      <audio id="vo07" class="clip" data-start="17.35" data-duration="1.78" data-track-index="20" data-volume="0.85" src="assets/voice/vo07.wav"></audio>
+      <audio id="vo08" class="clip" data-start="19.95" data-duration="1.52" data-track-index="21" data-volume="0.85" src="assets/voice/vo08.wav"></audio>
+      <audio id="vo09" class="clip" data-start="23.33" data-duration="0.85" data-track-index="20" data-volume="0.85" src="assets/voice/vo09.wav"></audio>
+      <audio id="vo10" class="clip" data-start="24.3" data-duration="2.52" data-track-index="21" data-volume="0.85" src="assets/voice/vo10.wav"></audio>
+      <audio id="vo11" class="clip" data-start="26.95" data-duration="1.73" data-track-index="20" data-volume="0.85" src="assets/voice/vo11.wav"></audio>
+      <audio id="vo12" class="clip" data-start="28.92" data-duration="2.225" data-track-index="21" data-volume="0.85" src="assets/voice/vo12.wav"></audio>
+      <audio id="vo13a" class="clip" data-start="31.27" data-duration="1.93" data-track-index="20" data-volume="0.85" src="assets/voice/vo13a.wav"></audio>
+      <audio id="vo13b" class="clip" data-start="33.75" data-duration="1.41" data-track-index="21" data-volume="0.85" src="assets/voice/vo13b.wav"></audio>
+      <audio id="vo14" class="clip" data-start="36.25" data-duration="2.46" data-track-index="20" data-volume="0.85" src="assets/voice/vo14.wav"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>
